@@ -1,0 +1,15 @@
+[
+  {
+    "name": "_tailwind",
+    "path": "/_tailwind",
+    "component": "/Users/Cess/Developer/Portfolio/wsp-rose/node_modules/@nuxtjs/tailwindcss/lib/ui/pages/index.vue",
+    "_name": "_63f5c90c"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/Cess/Developer/Portfolio/wsp-rose/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_8daefa5e"
+  }
+]

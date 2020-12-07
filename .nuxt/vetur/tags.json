@@ -1,0 +1,44 @@
+{
+  "About": {
+    "description": "Auto imported from components/About.vue"
+  },
+  "LazyAbout": {
+    "description": "Auto imported from components/About.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "LazyFooter": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "Gallery": {
+    "description": "Auto imported from components/Gallery.vue"
+  },
+  "LazyGallery": {
+    "description": "Auto imported from components/Gallery.vue"
+  },
+  "Header": {
+    "description": "Auto imported from components/Header.vue"
+  },
+  "LazyHeader": {
+    "description": "Auto imported from components/Header.vue"
+  },
+  "Logo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "LazyLogo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "ProductIndex": {
+    "description": "Auto imported from components/ProductIndex.vue"
+  },
+  "LazyProductIndex": {
+    "description": "Auto imported from components/ProductIndex.vue"
+  },
+  "Subscribe": {
+    "description": "Auto imported from components/Subscribe.vue"
+  },
+  "LazySubscribe": {
+    "description": "Auto imported from components/Subscribe.vue"
+  }
+}
