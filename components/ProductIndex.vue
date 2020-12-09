@@ -21,11 +21,13 @@
         </p>
         <div>
           <button
-            class="border border-gray-400 py-1 px-6 font-bold font-serif text-blue-900 mr-4 text-md"
+            class="rounded-md bg-gray-50 text-blue-900 font-bold py-1 px-6 font-serif text-md md:w-full md:m-0 md:mb-2"
           >
             Detail
           </button>
-          <button class="py-1 px-6 font-bold font-serif text-blue-900 text-md">
+          <button
+            class="py-1 px-6 font-bold font-serif text-blue-900 text-md md:w-full"
+          >
             Website
           </button>
         </div>
@@ -46,27 +48,27 @@ export default {
   props: {
     color: {
       type: String,
-      default: '#000',
+      default: "#000",
     },
     side: {
       type: String,
-      default: 'left',
+      default: "left",
     },
     img: {
       type: String,
       default:
-        'https://images.unsplash.com/photo-1551499779-ee50f1aa4d25?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80',
+        "https://images.unsplash.com/photo-1551499779-ee50f1aa4d25?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80",
     },
     background: {
       type: String,
-      default: 'bg-gray-100',
+      default: "bg-gray-100",
     },
   },
   data() {
-    return {}
+    return {};
   },
   computed: {},
-}
+};
 </script>
 
 <style>

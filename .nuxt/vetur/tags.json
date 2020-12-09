@@ -40,5 +40,11 @@
   },
   "LazySubscribe": {
     "description": "Auto imported from components/Subscribe.vue"
+  },
+  "Welcome": {
+    "description": "Auto imported from components/Welcome.vue"
+  },
+  "LazyWelcome": {
+    "description": "Auto imported from components/Welcome.vue"
   }
 }
