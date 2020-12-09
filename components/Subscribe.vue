@@ -1,10 +1,10 @@
 <template>
   <div class="w-full text-center mb-10">
-    <h1 class="font-serif font-bold text-blue-900 text-4xl mb-10">
+    <h1 class="font-bold text-blue-900 text-5xl mb-10 tracking-wide">
       Subscribe Now
     </h1>
-    <div class="relative">
-      <div class="mx-auto w-80 relative">
+    <div class="relative px-4">
+      <div class="mx-auto relative md:w-80">
         <input
           type="text"
           class="border border-gray-300 w-full px-4 py-2 rounded-sm font-serif"
@@ -37,9 +37,9 @@
  */
 export default {
   data() {
-    return {}
+    return {};
   },
-}
+};
 </script>
 
 <style lang="css">

@@ -1,13 +1,9 @@
 <template>
   <div class="w-full h-screen flex">
     <div class="w-1/2 relative md:w-3/4"></div>
-    <div class="absolute top-1/4 px-4 container-index z-10">
-      <h1 class="font-bold font-serif text-6xl text-gray-200 opacity-25">
-        circular
-      </h1>
-      <h2 class="font-bold font-serif text-5xl text-blue-900">
-        Product´s Name
-      </h2>
+    <div class="absolute px-4 container-index z-10">
+      <h1 class="font-medium text-6xl text-gray-200 opacity-25">circular</h1>
+      <h2 class="text-6xl text-blue-900 font-black">Product´s Name</h2>
       <p class="mt-4 mb-4 text-gray-200 font-bold">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
         reiciendis ea delectus enim culpa non sequi adipisci perferendis.
@@ -51,12 +47,14 @@
 .container-index {
   width: 100%;
   transition: all 0.3s ease-in-out;
+  top: 30%;
 }
 .image-container {
   top: 10%;
   right: 23%;
   transition: all 0.3s ease-in-out;
 }
+
 @media screen and (min-width: 630px) {
   .container-index {
     width: 70%;
@@ -65,6 +63,12 @@
 @media screen and (min-width: 768px) {
   .container-index {
     width: 45%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container-index {
+    top: 30%;
   }
 }
 
@@ -82,7 +86,11 @@
 
 @media screen and (min-width: 1024px) {
   .image-container {
-    right: 15%;
+    top: 10%;
+    right: 10%;
+  }
+  .image-container img {
+    width: 28rem;
   }
 }
 @media screen and (min-width: 1280px) {

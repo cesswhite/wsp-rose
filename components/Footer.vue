@@ -2,43 +2,33 @@
   <div class="">
     <div class="p-2">
       <svg
-          class="w-8 h-8 mx-auto text-rose-600"
-          fill="currentColor"
-          viewBox="0 0 20 20"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z"
-            clip-rule="evenodd"
-          ></path>
-        </svg>
+        class="w-8 h-8 mx-auto text-rose-600"
+        fill="currentColor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z"
+          clip-rule="evenodd"
+        ></path>
+      </svg>
     </div>
     <div class="w-full p-4">
-      <div class="flex justify-between w-96 mx-auto">
-        <nuxt-link
-          class="font-semibold font-serif text-sm text-gray-400 opacity-75"
-          to=""
+      <div class="flex justify-between mx-auto md:w-96">
+        <nuxt-link class="font-semibold text-sm text-gray-400 opacity-75" to=""
           >Home</nuxt-link
         >
-        <nuxt-link
-          class="font-semibold font-serif text-sm text-gray-400 opacity-75"
-          to=""
+        <nuxt-link class="font-semibold text-sm text-gray-400 opacity-75" to=""
           >About</nuxt-link
         >
-        <nuxt-link
-          class="font-semibold font-serif text-sm text-gray-400 opacity-75"
-          to=""
+        <nuxt-link class="font-semibold text-sm text-gray-400 opacity-75" to=""
           >Gallery</nuxt-link
         >
-        <nuxt-link
-          class="font-semibold font-serif text-sm text-gray-400 opacity-75"
-          to=""
+        <nuxt-link class="font-semibold text-sm text-gray-400 opacity-75" to=""
           >Subscribe</nuxt-link
         >
-        <nuxt-link
-          class="font-semibold font-serif text-sm text-gray-400 opacity-75"
-          to=""
+        <nuxt-link class="font-semibold text-sm text-gray-400 opacity-75" to=""
           >Contact</nuxt-link
         >
       </div>
@@ -135,7 +125,7 @@
  */
 export default {
   data() {
-    return {}
+    return {};
   },
-}
+};
 </script>
